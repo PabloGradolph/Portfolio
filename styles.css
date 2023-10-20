@@ -711,14 +711,17 @@ footer .arriba{
     }
 
     .portfolio .galeria{
-        display: block;
+        display: flex;
         width: 100%;
     }
     .portfolio .galeria .proyecto{
         max-width: 100%;
+        margin-top: 20px;
     }
     .portfolio .galeria .proyecto img{
         width: 100%;
+        display: block;
+        height: 100%;
     }
     .contacto .fila{
         display: block;
